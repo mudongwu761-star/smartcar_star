@@ -1,0 +1,460 @@
+The target system is: Linux -  - loongson
+The host system is: Linux - 5.15.0-139-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9311c/fast && /usr/bin/make -f CMakeFiles/cmTC_9311c.dir/build.make CMakeFiles/cmTC_9311c.dir/build
+make[1]: 进入目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9311c.dir/testCCompiler.c.o
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_9311c.dir/testCCompiler.c.o   -c /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9311c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9311c.dir/link.txt --verbose=1
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc      CMakeFiles/cmTC_9311c.dir/testCCompiler.c.o  -o cmTC_9311c 
+make[1]: 离开目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_abd55/fast && /usr/bin/make -f CMakeFiles/cmTC_abd55.dir/build.make CMakeFiles/cmTC_abd55.dir/build
+make[1]: Entering directory '/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc   -v -o CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc
+Target: loongarch64-linux-gnu
+Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c,c++,fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d,lp64s
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1 -quiet -v -imultilib . -iprefix /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mabi=lp64d -march=loongarch64 -mfpu=64 -msimd=none -mcmodel=normal -mtune=loongarch64 -auxbase-strip CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc9P2qad.s
+GNU C17 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include"
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e9195fca1b08cea7a12c2fefbe3ceb67
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o /tmp/cc9P2qad.s
+GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (LoongArch GNU toolchain rc1.6 20241115) 2.31.1.20190122
+COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+Linking C executable cmTC_abd55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd55.dir/link.txt --verbose=1
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc     -v CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o  -o cmTC_abd55 
+Using built-in specs.
+COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper
+Target: loongarch64-linux-gnu
+Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c,c++,fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d,lp64s
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) 
+COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abd55' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu8i2dF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot --eh-frame-hdr -m elf64loongarch -dynamic-linker /lib64/ld.so.1 -o cmTC_abd55 /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crt1.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crti.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abd55' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+make[1]: Leaving directory '/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(loongarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_abd55/fast && /usr/bin/make -f CMakeFiles/cmTC_abd55.dir/build.make CMakeFiles/cmTC_abd55.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc   -v -o CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c c++ fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d lp64s]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1 -quiet -v -imultilib . -iprefix /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mabi=lp64d -march=loongarch64 -mfpu=64 -msimd=none -mcmodel=normal -mtune=loongarch64 -auxbase-strip CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc9P2qad.s]
+  ignore line: [GNU C17 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e9195fca1b08cea7a12c2fefbe3ceb67]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o /tmp/cc9P2qad.s]
+  ignore line: [GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (LoongArch GNU toolchain rc1.6 20241115) 2.31.1.20190122]
+  ignore line: [COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  ignore line: [Linking C executable cmTC_abd55]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd55.dir/link.txt --verbose=1]
+  ignore line: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc     -v CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o  -o cmTC_abd55 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c c++ fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d lp64s]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) ]
+  ignore line: [COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abd55' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  link line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccu8i2dF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot --eh-frame-hdr -m elf64loongarch -dynamic-linker /lib64/ld.so.1 -o cmTC_abd55 /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crt1.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crti.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crtn.o]
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccu8i2dF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64loongarch] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_abd55] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crti.o] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_abd55.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib64]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib64;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib64;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib64;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6a63/fast && /usr/bin/make -f CMakeFiles/cmTC_f6a63.dir/build.make CMakeFiles/cmTC_f6a63.dir/build
+make[1]: 进入目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_f6a63.dir/testCXXCompiler.cxx.o
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++     -o CMakeFiles/cmTC_f6a63.dir/testCXXCompiler.cxx.o -c /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f6a63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6a63.dir/link.txt --verbose=1
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++       CMakeFiles/cmTC_f6a63.dir/testCXXCompiler.cxx.o  -o cmTC_f6a63 
+make[1]: 离开目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e0bd/fast && /usr/bin/make -f CMakeFiles/cmTC_6e0bd.dir/build.make CMakeFiles/cmTC_6e0bd.dir/build
+make[1]: Entering directory '/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++    -v -o CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++
+Target: loongarch64-linux-gnu
+Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c,c++,fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d,lp64s
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1plus -quiet -v -imultilib . -iprefix /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mabi=lp64d -march=loongarch64 -mfpu=64 -msimd=none -mcmodel=normal -mtune=loongarch64 -auxbase-strip CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccrqTyT7.s
+GNU C++14 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/loongarch64-linux-gnu/."
+ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include"
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"
+ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/backward
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++14 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ea5bbb2d0afb0de20dca386a34b3655f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrqTyT7.s
+GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (LoongArch GNU toolchain rc1.6 20241115) 2.31.1.20190122
+COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+Linking CXX executable cmTC_6e0bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e0bd.dir/link.txt --verbose=1
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++      -v CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6e0bd 
+Using built-in specs.
+COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper
+Target: loongarch64-linux-gnu
+Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c,c++,fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d,lp64s
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) 
+COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e0bd' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjcFJVy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot --eh-frame-hdr -m elf64loongarch -dynamic-linker /lib64/ld.so.1 -o cmTC_6e0bd /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crt1.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crti.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e0bd' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64'
+make[1]: Leaving directory '/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0]
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/backward]
+    add: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0]
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/backward] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/backward]
+  collapse include dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/backward;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(loongarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_6e0bd/fast && /usr/bin/make -f CMakeFiles/cmTC_6e0bd.dir/build.make CMakeFiles/cmTC_6e0bd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++    -v -o CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c c++ fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d lp64s]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1plus -quiet -v -imultilib . -iprefix /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mabi=lp64d -march=loongarch64 -mfpu=64 -msimd=none -mcmodel=normal -mtune=loongarch64 -auxbase-strip CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccrqTyT7.s]
+  ignore line: [GNU C++14 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/loongarch64-linux-gnu/."]
+  ignore line: [ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0/backward]
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (LoongArch GNU toolchain rc1.6 (20241115)) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ea5bbb2d0afb0de20dca386a34b3655f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  ignore line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrqTyT7.s]
+  ignore line: [GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (LoongArch GNU toolchain rc1.6 20241115) 2.31.1.20190122]
+  ignore line: [COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  ignore line: [Linking CXX executable cmTC_6e0bd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e0bd.dir/link.txt --verbose=1]
+  ignore line: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++      -v CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6e0bd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: ../src/gcc/configure --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=loongarch64-linux-gnu --prefix=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix --with-pkgversion='LoongArch GNU toolchain rc1.6 (20241115)' --with-sysroot=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/dev/shm/build-loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/prefix/loongarch64-linux-gnu/sysroot/usr/include/c++/8.3.0 --enable-languages=c c++ fortran --enable-initfini-array --disable-bootstrap --disable-decimal-float --disable-linker-build-id --disable-multiarch --disable-libcc1 --disable-nls --disable-zlib --with-system-zlib --with-multilib-list=lp64d lp64s]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain rc1.6 (20241115)) ]
+  ignore line: [COMPILER_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/:/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6e0bd' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-msimd=none' '-mcmodel=normal' '-mtune=loongarch64']
+  link line: [ /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjcFJVy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot --eh-frame-hdr -m elf64loongarch -dynamic-linker /lib64/ld.so.1 -o cmTC_6e0bd /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crt1.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crti.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64 -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib -L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crtn.o]
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjcFJVy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64loongarch] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6e0bd] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crt1.o] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crti.o] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib]
+    arg [-L/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib] ==> dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_6e0bd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o] ==> ignore
+    arg [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/../lib64] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib64]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib/../lib64] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib64]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib64]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/lib] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib]
+  collapse library dir [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/../loongarch64-linux-gnu/sysroot/usr/lib] ==> [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc/loongarch64-linux-gnu/8.3.0;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/lib/gcc;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib64;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib64;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib64;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/lib;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/lib;/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/loongarch64-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd864/fast && /usr/bin/make -f CMakeFiles/cmTC_cd864.dir/build.make CMakeFiles/cmTC_cd864.dir/build
+make[1]: 进入目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cd864.dir/CheckIncludeFile.c.o
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_cd864.dir/CheckIncludeFile.c.o   -c /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cd864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd864.dir/link.txt --verbose=1
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc      CMakeFiles/cmTC_cd864.dir/CheckIncludeFile.c.o  -o cmTC_cd864 
+make[1]: 离开目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_20fef/fast && /usr/bin/make -f CMakeFiles/cmTC_20fef.dir/build.make CMakeFiles/cmTC_20fef.dir/build
+make[1]: 进入目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_20fef.dir/CheckFunctionExists.c.o
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_20fef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20fef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20fef.dir/link.txt --verbose=1
+/home/mudong/smartcar/GUN/loongson-gnu-toolchain-8.3-x86_64-loongarch64-linux-gnu-rc1.6/bin/loongarch64-linux-gnu-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_20fef.dir/CheckFunctionExists.c.o  -o cmTC_20fef  -lpthread 
+make[1]: 离开目录“/home/mudong/smartcar/参考/智能驾驶/smartcar/build/CMakeFiles/CMakeTmp”
+
+
+
